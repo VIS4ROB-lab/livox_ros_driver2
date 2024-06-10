@@ -1,10 +1,12 @@
+set(ROS_EDITION "ROS2" CACHE STRING "ROS1 or ROS2")
+set(HUMBLE_ROS "humble" CACHE STRING "humble or not")
+
 # judge which cmake codes to use 
 if(ROS_EDITION STREQUAL "ROS1")
 
   # Copyright(c) 2019 livoxtech limited.
 
   cmake_minimum_required(VERSION 3.0)
-
 
   #---------------------------------------------------------------------------------------
   # Start livox_ros_driver2 project
