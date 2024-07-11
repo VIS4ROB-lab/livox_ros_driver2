@@ -277,7 +277,7 @@ void Lddc::InitPointcloud2MsgHeader(PointCloud2& cloud) {
   cloud.fields[2].count = 1;
   cloud.fields[2].datatype = PointField::FLOAT32;
   cloud.fields[3].offset = 12;
-  cloud.fields[3].name = "intensity";
+  cloud.fields[3].name = "reflectivity";
   cloud.fields[3].count = 1;
   cloud.fields[3].datatype = PointField::FLOAT32;
   cloud.fields[4].offset = 16;
